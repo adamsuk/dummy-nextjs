@@ -1,0 +1,119 @@
+{
+	"name": "dummy-nextjs",
+	"id": "79d11cd3-23c1-4ed4-9038-9ef8df9b76ce",
+	"created_on": "2022-03-30T19:39:44.473Z",
+	"subdomain": "dummy-nextjs-87h.pages.dev",
+	"domains": [
+		"dummy-nextjs-87h.pages.dev"
+	],
+	"source": {
+		"type": "github",
+		"config": {
+			"owner": "adamsuk",
+			"repo_name": "dummy-nextjs",
+			"production_branch": "main",
+			"pr_comments_enabled": true,
+			"deployments_enabled": true
+		}
+	},
+	"build_config": {
+		"build_command": "next build \u0026\u0026 next export",
+		"destination_dir": "out",
+		"root_dir": "",
+		"web_analytics_tag": "",
+		"web_analytics_token": ""
+	},
+	"deployment_configs": {
+		"preview": {
+			"env_vars": {
+				"ANOTHER_ENV_VAR": {
+					"value": "not much to see here"
+				},
+				"BUILD_VERSION": {
+					"value": "1.2"
+				},
+				"NEXT_PUBLIC_SOME_ENV_VAR": {
+					"value": "PREVIEW"
+				},
+				"NODE_VERSION": {
+					"value": "16.14.2"
+				}
+			}
+		},
+		"production": {
+			"env_vars": {
+				"BUILD_VERSION": {
+					"value": "1.2"
+				},
+				"NEXT_PUBLIC_SOME_ENV_VAR": {
+					"value": "PRODUCTION"
+				},
+				"NODE_VERSION": {
+					"value": "16.14.2"
+				}
+			}
+		}
+	},
+	"latest_deployment": {
+		"id": "",
+		"short_id": "",
+		"project_id": "",
+		"project_name": "",
+		"environment": "",
+		"url": "",
+		"created_on": null,
+		"modified_on": null,
+		"latest_stage": {
+			"name": "",
+			"status": ""
+		},
+		"env_vars": null,
+		"deployment_trigger": {
+			"type": "",
+			"metadata": null
+		},
+		"stages": null,
+		"build_config": {
+			"build_command": "",
+			"destination_dir": "",
+			"root_dir": "",
+			"web_analytics_tag": "",
+			"web_analytics_token": ""
+		},
+		"source": {
+			"type": "",
+			"config": null
+		}
+	},
+	"canonical_deployment": {
+		"id": "",
+		"short_id": "",
+		"project_id": "",
+		"project_name": "",
+		"environment": "",
+		"url": "",
+		"created_on": null,
+		"modified_on": null,
+		"latest_stage": {
+			"name": "",
+			"status": ""
+		},
+		"env_vars": null,
+		"deployment_trigger": {
+			"type": "",
+			"metadata": null
+		},
+		"stages": null,
+		"build_config": {
+			"build_command": "",
+			"destination_dir": "",
+			"root_dir": "",
+			"web_analytics_tag": "",
+			"web_analytics_token": ""
+		},
+		"source": {
+			"type": "",
+			"config": null
+		}
+	}
+}
