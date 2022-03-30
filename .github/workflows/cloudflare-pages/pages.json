@@ -1,7 +1,7 @@
 {
 	"name": "dummy-nextjs",
-	"id": "209d1aad-21b9-4750-84e1-67b344ce872d",
-	"created_on": "2022-03-30T19:36:25.525005Z",
+	"id": "79d11cd3-23c1-4ed4-9038-9ef8df9b76ce",
+	"created_on": "2022-03-30T19:39:44.473Z",
 	"subdomain": "dummy-nextjs-87h.pages.dev",
 	"domains": [
 		"dummy-nextjs-87h.pages.dev"
@@ -17,8 +17,8 @@
 		}
 	},
 	"build_config": {
-		"build_command": "npm run build",
-		"destination_dir": "build",
+		"build_command": "next build \u0026\u0026 next export",
+		"destination_dir": "out",
 		"root_dir": "",
 		"web_analytics_tag": "",
 		"web_analytics_token": ""
