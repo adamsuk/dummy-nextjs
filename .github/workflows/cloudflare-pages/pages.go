@@ -130,19 +130,20 @@ func main() {
 	// Print user details
 	fmt.Println(u)
 
-	// Fetch the zone ID
-	id, err := api.ZoneIDByName("sradams.co.uk") // Assuming example.com exists in your Cloudflare account already
-	if err != nil {
-		log.Fatal(err)
-	}
+	// TODO: remove when not needed - just testing out the water
+	// // Fetch the zone ID
+	// id, err := api.ZoneIDByName("sradams.co.uk") // Assuming example.com exists in your Cloudflare account already
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
-	// Fetch zone details
-	zone, err := api.ZoneDetails(ctx, id)
-	if err != nil {
-		log.Fatal(err)
-	}
-	// Print zone details
-	fmt.Println(zone)
+	// // Fetch zone details
+	// zone, err := api.ZoneDetails(ctx, id)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// // Print zone details
+	// fmt.Println(zone)
 
 	// Fetch Pages Projects
 	projects, _, err := api.ListPagesProjects(ctx, os.Getenv("CF_ACCOUNT_ID"), cloudflare.PaginationOptions{})
