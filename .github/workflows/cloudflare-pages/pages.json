@@ -1,0 +1,113 @@
+{
+	"name": "dummy-nextjs",
+	"id": "9f82a845-3b09-4d68-a7b5-001616c469a1",
+	"created_on": "2022-03-30T19:31:17.140189Z",
+	"subdomain": "dummy-nextjs-87h.pages.dev",
+	"domains": [
+		"dummy-nextjs-87h.pages.dev"
+	],
+	"source": {
+		"type": "github",
+		"config": {
+			"owner": "adamsuk",
+			"repo_name": "dummy-nextjs",
+			"production_branch": "main",
+			"pr_comments_enabled": true,
+			"deployments_enabled": true
+		}
+	},
+	"build_config": {
+		"build_command": "npm run build",
+		"destination_dir": "build",
+		"root_dir": "",
+		"web_analytics_tag": "",
+		"web_analytics_token": ""
+	},
+	"deployment_configs": {
+		"preview": {
+			"env_vars": {
+				"ANOTHER_ENV_VAR": {
+					"value": "not much to see here"
+				},
+				"BUILD_VERSION": {
+					"value": "1.2"
+				},
+				"NEXT_PUBLIC_SOME_ENV_VAR": {
+					"value": "PREVIEW"
+				}
+			}
+		},
+		"production": {
+			"env_vars": {
+				"BUILD_VERSION": {
+					"value": "1.2"
+				},
+				"NEXT_PUBLIC_SOME_ENV_VAR": {
+					"value": "PRODUCTION"
+				}
+			}
+		}
+	},
+	"latest_deployment": {
+		"id": "",
+		"short_id": "",
+		"project_id": "",
+		"project_name": "",
+		"environment": "",
+		"url": "",
+		"created_on": null,
+		"modified_on": null,
+		"latest_stage": {
+			"name": "",
+			"status": ""
+		},
+		"env_vars": null,
+		"deployment_trigger": {
+			"type": "",
+			"metadata": null
+		},
+		"stages": null,
+		"build_config": {
+			"build_command": "",
+			"destination_dir": "",
+			"root_dir": "",
+			"web_analytics_tag": "",
+			"web_analytics_token": ""
+		},
+		"source": {
+			"type": "",
+			"config": null
+		}
+	},
+	"canonical_deployment": {
+		"id": "",
+		"short_id": "",
+		"project_id": "",
+		"project_name": "",
+		"environment": "",
+		"url": "",
+		"created_on": null,
+		"modified_on": null,
+		"latest_stage": {
+			"name": "",
+			"status": ""
+		},
+		"env_vars": null,
+		"deployment_trigger": {
+			"type": "",
+			"metadata": null
+		},
+		"stages": null,
+		"build_config": {
+			"build_command": "",
+			"destination_dir": "",
+			"root_dir": "",
+			"web_analytics_tag": "",
+			"web_analytics_token": ""
+		},
+		"source": {
+			"type": "",
+			"config": null
+		}
+	}
+}
