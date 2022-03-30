@@ -1,7 +1,7 @@
 {
 	"name": "dummy-nextjs",
-	"id": "9f82a845-3b09-4d68-a7b5-001616c469a1",
-	"created_on": "2022-03-30T19:31:17.140189Z",
+	"id": "209d1aad-21b9-4750-84e1-67b344ce872d",
+	"created_on": "2022-03-30T19:36:25.525005Z",
 	"subdomain": "dummy-nextjs-87h.pages.dev",
 	"domains": [
 		"dummy-nextjs-87h.pages.dev"
@@ -34,6 +34,9 @@
 				},
 				"NEXT_PUBLIC_SOME_ENV_VAR": {
 					"value": "PREVIEW"
+				},
+				"NODE_VERSION": {
+					"value": "16.14.2"
 				}
 			}
 		},
@@ -44,6 +47,9 @@
 				},
 				"NEXT_PUBLIC_SOME_ENV_VAR": {
 					"value": "PRODUCTION"
+				},
+				"NODE_VERSION": {
+					"value": "16.14.2"
 				}
 			}
 		}
